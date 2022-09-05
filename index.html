@@ -4,30 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JW Player version 8.26.0 | Crack by NaufalTV</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
-    <div id="jwplayer_container">
+    <div id="player">
     </div>
     <script src="./script/jwplayer.js"></script>
     <script src="./script/jwplayer.core.controls.js"></script>
-    <script>
-        var playerUrl = window.btoa("https://naufaltv-aase.streaming.media.azure.net/26358a7b-37e5-4a51-89e6-3f63dcfbd18a/live.ism/manifest(format=mpd-time-cmaf)");
-        var tviOSPath = window.btoa("https://naufaltv-aase.streaming.media.azure.net/26358a7b-37e5-4a51-89e6-3f63dcfbd18a/live.ism/manifest(format=mpd-time-cmaf)");
-              jwplayer("jwplayer_container").setup({
-               playlist: [{
-                sources: [{
-                 file: window.atob(playerUrl),
-                }, {
-                 file: window.atob(tviOSPath)
-                }],
-               }],
-               androidhls: true,
-               width: "100%",
-               height: "460",
-               fallback: "false",
-               autostart: true,
-              });
-        </script>
+    <script src="./script/script.js"></script>
 </body>
 </html>
